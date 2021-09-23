@@ -1,0 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caramel&family=Grey+Qo&family=Lobster+Two:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caramel&family=Grey+Qo&family=Lobster+Two:ital@1&family=Roboto:ital,wght@1,100;1,300&family=Scheherazade+New&display=swap');
+.aboutme{
+    background-color: white;
+    padding: 7% 30% 10% 30%;
+}
+
+.aboutP{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Scheherazade New', serif;
+}
+.abouth{
+    margin: 10%;
+    font-family: 'Caramel', cursive;
+    font-family: 'Grey Qo', cursive;
+    font-family: 'Lobster Two', cursive;
+}

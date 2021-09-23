@@ -1,0 +1,17 @@
+
+.education{
+    background-color: white;
+    border: 5px solid pink;
+    text-align: center;
+    margin:0% 25%;
+    padding: 4% 0%;
+}
+.edublock{
+    font-size: 20px;
+    font-family: 'Scheherazade New', serif;
+    margin-top: 10%;
+}
+.educationh1{
+    font-family: 'Courgette', cursive;
+    font-size: 40px;
+}
