@@ -1,5 +1,5 @@
-import react from 'react'
-import "./css/aboutme.css"
+import React from 'react'
+import "../css/aboutme.css"
 export default function aboutme(){
    return(
        <>

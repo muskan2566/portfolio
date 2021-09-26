@@ -1,5 +1,6 @@
 import React from 'react'
-import './css/navbar.css'
+import { Link } from 'react-router-dom';
+import '../css/navbar.css'
 import Muskan from './muskan.jpeg'
 
 export default function navbar() {
@@ -8,13 +9,13 @@ export default function navbar() {
         <>
         <div className="body">
             <div className="navbar">
-                <a href="https://vinayaksharma.netlify.app/">HOME</a>
-                <a href="">PROJECTS</a>
+                <Link to="/">HOME</Link>
+                <Link to="/project">PROJECTS</Link>
             </div>
             <div className="div">
                 <p className="name"> <b>Muskan <br></br> Kushwah</b> <p className="aim">Software Developer</p> 
                 </p>
-                <img className="img"src={Muskan}  />
+                <img className="img"src={Muskan} alt="" />
               
 
                 <ul className="list">
