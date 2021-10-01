@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Philosopher:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap');
+.project-Navbar{
+    background:rgb(247, 203, 211);
+    padding:35px; 
+}
+.project-Navbar>div{
+    margin-left:16%;
+}
+.project-link{
+  color:black;
+  padding:6px;
+  text-decoration: none;
+  margin-left: 30px;
+}
+.projecth{
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+}
+.project-title{
+    margin: 50px 240px;
+}
+
+.project-body{
+    display:flex;
+    margin: 80px ;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.project-image{
+   
+    height: 100%;
+    width:450px;
+}
+.project-details{
+    padding:30px 15px 30px 50px;
+   
+}
+.poject-head{
+    font-family: 'Philosopher', sans-serif;
+}
+.project-info{
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+.P-button{
+    margin: 40px 5px 0px 0px;
+    padding:11px 14px;
+    border-radius: 10px;
+    background:pink;
+    color: black;
+    font-family: 'Philosopher', sans-serif;
+    border-color: pink;
+    cursor: pointer;
+}
+.P-button:hover{
+    font-size: 10px;
+}
+.project-h{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Philosopher', sans-serif;
+    
+}
+.project-tech{
+    margin-top: 3%;
+    font-size:18px;
+    margin-bottom: 20px;
+}
