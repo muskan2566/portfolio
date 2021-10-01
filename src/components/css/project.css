@@ -59,6 +59,11 @@
 .P-button:hover{
     font-size: 10px;
 }
+.P-button>a{
+    text-decoration: none;
+    color:black;
+    font-family: 'Philosopher', sans-serif;
+}
 .project-h{
     margin-top: 10px;
     font-size: 30px;

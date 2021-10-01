@@ -27,8 +27,8 @@ export default function Project() {
                         <p className="project-info">This is a Website for MCA,BCA and DDMCA Students.
                             You can download Books, Syllabus(RGPV), Notes, Exam-papers from here.</p>
                           
-                            <button className="P-button" onclick="https://vm-collagewebsite.netlify.app/">Git Hub</button>
-                            <button className="P-button" onclick="https://vm-collagewebsite.netlify.app/">Live Demo</button>
+                            <button className="P-button"><a href="https://github.com/muskan2566/Collage-Essentials/" target="_blank"rel="noreferrer" >Git Hub</a></button>
+                           <button className="P-button"><a href="https://vm-collagewebsite.netlify.app/" target="_blank"  rel="noreferrer">Live Demo</a></button>
                         
                     </div>
                 </div>
