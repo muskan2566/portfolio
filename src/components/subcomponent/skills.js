@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/skills.css'
+import { Link } from 'react-router-dom'
 
 export default function skills() {
     return (
@@ -50,7 +51,7 @@ export default function skills() {
                             <div class="skills">
                                 <div class="details">
                                     <span>Java</span>
-                                    <span>40%</span>
+                                    <span>50%</span>
                                 </div>
                                 <div class="bar">
                                     <div id="java-bar"></div>
@@ -60,7 +61,7 @@ export default function skills() {
                     </div>
                 </div>
 
-                <button className="projectbutton" type="button"><b><i>View My Projects</i></b></button>
+                <Link to="/project"><button className="projectbutton" type="button"><b><i>View My Projects</i></b></button></Link>
 
             </div>
         </>

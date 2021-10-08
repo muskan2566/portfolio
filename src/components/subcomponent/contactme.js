@@ -15,6 +15,7 @@ export default function contactme() {
                         <label for="name">Enter Your Name</label>
                         <label className="emaillabel" for="email">Enter Your Email</label><br />
                         <input className="input hoverontext" type="text" id="name" name="firstName" placeholder="Name"></input>
+                        <label className="emaillabel2" for="email">Enter Your Email</label>
                         <input className="input  hoverontext" type="email" id="email" required name="email" placeholder="Email"></input><br />
                         <label for="message">Enter Your Message</label><br />
                         <input className="textmessage  hoverontext" id="message" type="textarea" name="anotherInput" placeholder="Message"></input>

@@ -14,7 +14,22 @@
 }
 .abouth{
     margin: 10%;
-    font-family: 'Caramel', cursive;
-    font-family: 'Grey Qo', cursive;
     font-family: 'Lobster Two', cursive;
+}
+
+@media only screen and (max-width: 600px)
+{
+    .aboutme{
+        background-color: white;
+        padding: 2% 10% 10% 10%;
+    }
+    .abouth{
+        margin: 8%;
+        font-size: 29px;
+    }
+    .aboutP{
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Scheherazade New', serif;
+    }
 }

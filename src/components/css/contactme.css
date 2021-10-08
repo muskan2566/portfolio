@@ -4,9 +4,7 @@
     margin: 10%  25%;
     padding:20px 10px;
 }
-.lebals{
-    display: flex;
-}
+
 .contacth{
      font-family: 'Lobster Two', cursive;
       text-align: center;
@@ -16,6 +14,9 @@
 }
 .emaillabel{
     margin-left:31%;
+}
+.emaillabel2{
+    display:none;
 }
 .input{
     padding:10px;
@@ -37,4 +38,38 @@
     width: 93%;
     background-color: black;
     color:white;
+}
+@media only screen and (max-width: 600px)
+{
+    .contactbody{
+        margin: 10%  7%;
+        padding:20px 10px;
+    }
+    .contactform{
+        margin-top: 10% ;
+        padding: 2%; 
+    }
+    .emaillabel{
+        display: none;
+    }
+    .emaillabel2{
+        display:block;
+
+    }
+    .input{
+        margin-left: 5%;
+        width: 250px;
+    }
+    form>label{
+        margin-left:18px;
+        
+    }
+    .textmessage{
+        margin-left: 5%;
+        width: 250px;
+    }
+    .contactbutton{
+        margin: 5%;
+    }
+
 }

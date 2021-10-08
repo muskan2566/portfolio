@@ -4,11 +4,12 @@
 .skillbody{
     padding: 2% 5%;
     margin: 10% 25%;
-    border: 4px solid pink;
+    border: 5px solid pink;
     text-align: center;
 
 }
 .skillsh{
+    margin-bottom: 6%;
     font-family: 'Playball', cursive;
 }
 .projectbutton{
@@ -21,7 +22,6 @@
 .wrapper{
     width: 40%;
     min-width: 590px;
- 
 }
 .container{
     width: 100%;
@@ -107,5 +107,62 @@ h2{
 @keyframes jQuery-fill{
     100%{
         width: 58%;
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+    .skillbody{
+        padding: 8% 5%;
+        margin: 30% 7%;
+    }
+    .projectbutton{
+        padding: 3% 20%;
+        margin: 1% 15% 20%;
+    }
+    .wrapper{
+        min-width: 270px;
+    }
+    .skillsh{
+        font-size: 30px;
+    }
+    .container{
+        padding: 30px 40px;
+        border-radius: 0px;
+    } 
+    .container *{
+        font-weight: 350;
+    }
+    #html-bar{
+        animation: html-fill 2s forwards;
+    }
+    @keyframes html-fill{
+        100%{
+            width: 80%;
+        }
+    }
+    #css-bar{
+        animation: css-fill 2s forwards;
+    }
+    @keyframes css-fill{
+        100%{
+            width: 70%;
+        }
+    }
+    #js-bar{
+        animation: js-fill 2s forwards;
+    }
+    @keyframes js-fill {
+        100%{
+            width: 44%;
+        }
+    }
+    #java-bar{
+        animation: jQuery-fill 2s forwards;
+    }
+    @keyframes jQuery-fill{
+        100%{
+            width: 55%;
+        }
     }
 }

@@ -8,12 +8,11 @@ export default function aboutme(){
 
            < h1 className="abouth"> About Me</h1>
             I'm a 21 year old software developer and a competitive programmer staying in Dewas Madhya Pradesh ,India. 
-            Currently pursuing in 4th year of integrated MCA.
+            Currently pursuing 4th year in computer Application.
             <br/>
-            My interests include solving some real life problem via web & mobile apps and solving programming problems.
-            Connect with me on LinkedIn and have a look on my Github profile .
-            <br/>
-            I am always open and excited to learn and work with like minded people and want to be a successful developer.
+            My instrests include solving real life problem via mobile and web apps.Connect with me on My Github Profile.
+            <br/><br/>
+            I am always open and thrilled to learn and work with other people and looking forward to become a successful developer.
             </p>
             </div>
        </>  
