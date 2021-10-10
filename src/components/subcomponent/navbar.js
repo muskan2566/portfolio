@@ -7,13 +7,13 @@ export default function navbar() {
     
     return (
         <>
-        <div className="body">
+        <div className="body" id="home">
             <div className="navbar">
                 <Link to="/">HOME</Link>
                 <Link to="/project">PROJECTS</Link>
             </div>
             <div className="div">
-                <p className="name"> <b>Muskan <br></br> Kushwah</b> <p className="aim">Software Developer</p> 
+                <p className="name"> <b>Muskan <br></br> Kushwah</b> <span className="aim">Software Developer</span> 
                 </p>
                 <img className="img"src={Muskan} alt="" />
               

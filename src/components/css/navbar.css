@@ -9,8 +9,6 @@ html{
     scroll-behavior: smooth;
 }
 .body{
- /* background-color: rgb(245, 207, 218); */
- 
  background:linear-gradient(90deg,rgb(245, 207, 218) 45%, white 45%);
  padding-bottom: 5%;
  
@@ -38,14 +36,14 @@ html{
     color: rgb(49, 45, 45);
 }
 .aim{
-    margin-left:30%;
+    margin-left:23%;
     margin-top: 5%;
     font-family: 'Playball', cursive;
     font-size: 35%;
     color: rgb(48, 44, 44);
 }
 .img{
-    margin-left: 1%;
+    margin-right: 30%;
     width: 33%; 
     height: 25%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
@@ -87,8 +85,7 @@ html{
     }
     .navbar{
         padding: 12%;
-        margin-left: 10px;
-        
+        margin-left: 10px;   
     }
     .div{
         display: block;
@@ -106,6 +103,7 @@ html{
         color: rgb(100, 91, 91);
     }
     .img{
+        margin-right:0%;
         margin-top:12%;
         margin-left: 15%;
         width: 70%; 

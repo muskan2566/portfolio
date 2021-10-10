@@ -5,6 +5,9 @@
     background:rgb(247, 203, 211);
     padding:35px; 
 }
+.phone-navbar{
+    display: none;
+}
 .project-Navbar>div{
     margin-left:16%;
 }
@@ -16,10 +19,19 @@
 }
 .projecth{
     margin-bottom: 20px;
-    padding: 15px;
+    padding: 1%;
     font-size: 40px;
     text-align: center;
     font-family: 'Philosopher', sans-serif;
+}
+.phone-div{
+    display:none;
+}
+.phone-h{
+    display:none;
+}
+.phone-hr{
+    display:block;
 }
 .project-title{
     margin: 50px 240px;
@@ -31,13 +43,11 @@
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .project-image{
-   
     height: 100%;
     width:450px;
 }
 .project-details{
     padding:30px 15px 30px 50px;
-   
 }
 .poject-head{
     font-family: 'Philosopher', sans-serif;
@@ -80,5 +90,76 @@
 
 @media only screen and (max-width: 600px)
 {
+.project-Navbar{
+     padding:25px; 
+     background: rgb(247, 203, 211);
+}
+.phone-navbar{
+    display: block;
+    padding-left: 90%;
+}
+.project-Navbar>div{
+    margin-top: 3%;
+    margin-left: 4%;
+}
+.phone-link{
+    display: none;
+}
+.fa-home{
+    color:rgb(63, 58, 58);
+}
+.phone-hr{
+    display:none;
+}
+.projecth{
+    margin-top: 0px;
+    padding: 0px;
+    font-size: 40px;
+}
+.project-title{
+    margin: 30px 25px;
+}
+.project-body{
+    display:block;
+    margin: 0%;
+    margin-bottom: 20%;
+    /* box-shadow: rgba(51, 49, 50, 0.2) 0px 2px 8px 0px; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.project-image{
+    width:100%;
+    margin-top: 0%;
     
+}
+.project-details{
+    padding:20px 15px 30px 15px;
+}
+.project-info{
+    font-size: 15px;
+}
+.P-button:hover{
+    font-size: 14px;
+}
+.project-h{
+    display:none;
+}
+.phone-div{
+    display:block;
+    background: rgb(247, 203, 211);
+    margin-top: 3%;
+    padding: 25px;
+}
+.phone-h{
+    display:block;
+    font-weight: bold;
+    font-size: 120%;
+    text-decoration:underline;
+    font-family: 'Philosopher', sans-serif;
+}
+.project-tech{
+    margin-top: 10%;
+    font-size:15px;
+    margin-bottom: 20px;
+}
+
 }

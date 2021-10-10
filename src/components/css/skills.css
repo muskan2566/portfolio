@@ -74,7 +74,7 @@ h2{
 }
 @keyframes html-fill{
     100%{
-        width: 90%;
+        width: 75%;
     }
 }
 #css-bar{
@@ -82,7 +82,7 @@ h2{
 }
 @keyframes css-fill{
     100%{
-        width: 75%;
+        width: 65%;
     }
 }
 #js-bar{
@@ -90,7 +90,7 @@ h2{
 }
 @keyframes js-fill {
     100%{
-        width: 72%;
+        width: 45%;
     }
 }
 #jQuery-bar{
@@ -138,7 +138,7 @@ h2{
     }
     @keyframes html-fill{
         100%{
-            width: 80%;
+            width: 75%;
         }
     }
     #css-bar{
@@ -146,7 +146,7 @@ h2{
     }
     @keyframes css-fill{
         100%{
-            width: 70%;
+            width: 65%;
         }
     }
     #js-bar{
@@ -154,7 +154,7 @@ h2{
     }
     @keyframes js-fill {
         100%{
-            width: 44%;
+            width: 40%;
         }
     }
     #java-bar{
