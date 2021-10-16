@@ -1,6 +1,7 @@
 import React from 'react'
 import '../css/skills.css'
 import { Link } from 'react-router-dom'
+import Resume from '../image/Resume.pdf'
 
 export default function skills() {
     return (
@@ -59,8 +60,9 @@ export default function skills() {
                             </div>
                         </div>
                     </div>
+                    <a href={Resume} download><button className="Resume-button"><i>Resume </i><i class=" fa far fa-arrow-alt-circle-down"></i></button></a>
                 </div>
-
+                
                 <Link to="/project"><button className="projectbutton" type="button"><b><i>View My Projects</i></b></button></Link>
 
             </div>

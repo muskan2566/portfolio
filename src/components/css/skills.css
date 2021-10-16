@@ -109,6 +109,15 @@ h2{
         width: 58%;
     }
 }
+.Resume-button{
+    margin-top: 10%;
+    color:black;
+    background-color: pink; 
+    padding: 2% 10%;
+    border-color: pink;
+    font-size: 80%;
+    font-weight: bold;
+}
 
 @media only screen and (max-width: 600px)
 {
