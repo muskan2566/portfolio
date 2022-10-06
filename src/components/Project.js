@@ -2,7 +2,7 @@ import React from 'react'
 import './css/project.css'
 import P2 from './image/p2.png'
 import P1 from './image/p1.png'
-import P3 from './image/bg1.jpg'
+import P3 from  './image/p3.png'
 import { Link } from 'react-router-dom'
 
 export default function Project() {
@@ -51,11 +51,11 @@ export default function Project() {
                         <p className="project-info"> CryptoDash is a web application that provides an interface to see all the current prices of Crypto coins.</p>
 
                         <button className="P-button"><a href="https://github.com/muskan2566/Crypto-Dash" target="_blank" rel="noreferrer" >Git Hub</a></button>
-                        <button className="P-button"><a href="https://cryptodashb.netlify.app/" target="_blank" rel="noreferrer">Live Demo</a></button>
+                        <button className="P-button"><a href="https://cryptodashb.netlify.app" target="_blank" rel="noreferrer">Live Demo</a></button>
 
                     </div>
                     <div>
-                        <img className="project-image" src={P2} alt="not found" />
+                        <img className="project-image" src={P3} alt="not found" />
                     </div>
                    
                 </div>

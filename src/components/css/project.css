@@ -41,25 +41,28 @@
     display:flex;
     background-color: rgba(255, 255, 255, 0.993);
     margin: 10% 50px;
-   
 }
 .project-image{
     margin: 10% 0%;
-    height: 80%;
-    width:370px;
+    height: 88%;
+    width:400px;
 }
 .project-details2{
-    background-image: url(../image/bg1.jpg);
+    /* background-image: url(../image/bg1.jpg); */
+    background :rgb(245, 213, 219);
+
     margin-right: 20px;
-    padding:20px 40px 30px 70px;
-    border-radius: 50%;
+    padding:10px 20px 10px 30px;
+    border-radius: 0%;
     box-shadow: rgba(56, 55, 55, 0.3) 0px 2px 8px 0px;
 }
 .project-details{
-    background-image: url(../image/bg1.jpg);
+    /* background-image: url(../image/bg1.jpg); */
+    background :rgb(245, 213, 219);
+
     margin-left: 20px;
-    padding:20px 40px 30px 70px;
-    border-radius: 50%;
+    padding:10px 20px 10px 30px;
+    border-radius: 0%;
     box-shadow: rgba(56, 55, 55, 0.3) 0px 2px 8px 0px;
 }
 .poject-head{
