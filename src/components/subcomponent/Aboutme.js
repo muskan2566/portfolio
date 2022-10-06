@@ -6,7 +6,7 @@ export default function aboutme(){
            <div id="aboutmelink" className="aboutme">
            < h1 className="abouth"> About Me</h1>
            <p className="aboutP">
-            I'm a 21 year old software developer and a competitive programmer staying in Dewas Madhya Pradesh ,India. 
+            I'm a 22 year old software developer and a competitive programmer staying in Dewas Madhya Pradesh ,India. 
             Currently pursuing 4th year in computer Application.I love coading, developing and being part of tech community.I explore 
             new tech and pick-up exciting projects.
             <br/>

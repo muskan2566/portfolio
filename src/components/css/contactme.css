@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caramel&family=Grey+Qo&family=Lobster+Two:ital@1&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Caramel&family=Grey+Qo&family=Lobster+Two:ital@1&display=swap'); */
 .contactbody{
     border: 5px solid pink;
     margin: 10%  25%  3%;
@@ -6,14 +6,15 @@
 }
 
 .contacth{
-     font-family: 'Lobster Two', cursive;
+     font-family: unset ;
       text-align: center;
+      margin: 5px 0px 22px 0px ;
 }
 .contactform{
     padding: 30px 0px 30px 50px; 
 }
 .emaillabel{
-    margin-left:31%;
+    margin-left:30%;
 }
 .emaillabel2{
     display:none;
@@ -21,12 +22,12 @@
 .input{
     padding:10px;
     margin: 20px 30px 20px 0px;
-    width: 300px;
+    width: 260px;
 }
 .textmessage{
-    padding:3px 40px 60px 4px;
-    margin: 20px 30px 20px 0px;
-    width: 630px;
+    padding:3px 30px 40px 5px;
+    margin: 20px 0px;
+    width: 550px;
 }
 .hoverontext:hover{
     border: 2px solid black;
@@ -34,10 +35,13 @@
 
 .contactbutton{
     padding:10px;
-    margin: 20px 30px 20px 0px;
+    margin: 20px 30px 5px 0px;
     width: 93%;
     background-color: black;
     color:white;
+}
+.contactbutton:hover{
+    color: rgb(92, 91, 91);
 }
 .social-media{
     margin-top: 2%;
@@ -52,7 +56,7 @@
 }
 .fa-envelope:hover
 {
-    color:#BB001B;
+    color:#e2e617;
 }
 .fa-github:hover
 {

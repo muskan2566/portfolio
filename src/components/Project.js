@@ -1,6 +1,8 @@
 import React from 'react'
 import './css/project.css'
+import P2 from './image/p2.png'
 import P1 from './image/p1.png'
+import P3 from './image/bg1.jpg'
 import { Link } from 'react-router-dom'
 
 export default function Project() {
@@ -35,6 +37,43 @@ export default function Project() {
 
                         <button className="P-button"><a href="https://github.com/muskan2566/Collage-Essentials/" target="_blank" rel="noreferrer" >Git Hub</a></button>
                         <button className="P-button"><a href="https://vm-collagewebsite.netlify.app/" target="_blank" rel="noreferrer">Live Demo</a></button>
+
+                    </div>
+                </div>
+                <div className="project-body" >
+                    <div className="phone-div">
+                        <p className="phone-h">CryptoDash</p>
+                    </div>
+                    <div className="project-details2 ">
+                        <p className="project-h">CryptoDash</p>
+
+                        <p className="project-tech"><i>Technology (Reactjs,CSS)</i></p>
+                        <p className="project-info"> CryptoDash is a web application that provides an interface to see all the current prices of Crypto coins.</p>
+
+                        <button className="P-button"><a href="https://github.com/muskan2566/Crypto-Dash" target="_blank" rel="noreferrer" >Git Hub</a></button>
+                        <button className="P-button"><a href="https://cryptodashb.netlify.app/" target="_blank" rel="noreferrer">Live Demo</a></button>
+
+                    </div>
+                    <div>
+                        <img className="project-image" src={P2} alt="not found" />
+                    </div>
+                   
+                </div>
+                <div className="project-body" >
+                    <div className="phone-div">
+                        <p className="phone-h"> ImageGallery</p>
+                    </div>
+                    <div>
+                        <img className="project-image" src={P2} alt="not found" />
+                    </div>
+                    <div className="project-details">
+                        <p className="project-h">ImageGallery</p>
+
+                        <p className="project-tech"><i>Technology (MERN)</i></p>
+                        <p className="project-info"> This is a web app where you can add your images in DataBase. Also perform CURD operations like you can add ,view , change images in database.</p>
+
+                        <button className="P-button"><a href="https://github.com/muskan2566/ImageGalleryClint" target="_blank" rel="noreferrer" >Git Hub</a></button>
+                        <button className="P-button"><a href="https://imagegalleryhub.netlify.app" target="_blank" rel="noreferrer">Live Demo</a></button>
 
                     </div>
                 </div>

@@ -8,16 +8,23 @@ export default function Education() {
             <h1 className="educationh1">Education</h1>
             <div className="edublock">
             <p className="head-p"><b>2018-2023</b></p>
-            <p className="edup">
+            <p>
                 Acropolis Institute Of Technology And Research ,Indore MadhyaPradesh.<br/>
-                <i>INTEGRATED MCA(IIMCA) | CGPA :8.5/10</i>
+                <i>INTEGRATED MCA(IIMCA) | CGPA :8.7/10</i>
             </p>
             </div>
             <div className="edublock">
             <p className="head-p"><b>2018</b></p>
-            <p className="edup">
+            <p >
                 Padmaja Higher Secondary School, Dewas MadhyaPradesh.<br/>
-                <i>HIGHER SECONDARY (12th)| Aggregate: 72.5%</i>
+                <i>HIGHER SECONDARY (12th)| Aggregate: 72.6%</i>
+            </p>
+            </div>
+            <div className="edublock">
+            <p className="head-p"><b>2016</b></p>
+            <p >
+                Padmaja Higher Secondary School, Dewas MadhyaPradesh.<br/>
+                <i> SECONDARY (10th)| Aggregate: 81.5%</i>
             </p>
             </div>
             </div>

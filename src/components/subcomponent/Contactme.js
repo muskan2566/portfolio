@@ -25,7 +25,7 @@ export default function contactme() {
                         <label >Enter Your Message</label><br />
                         <input className="textmessage  hoverontext" id="message" type="textarea" name="anotherInput" placeholder="Message"></input>
                         <input type="hidden" name="_gotcha"/>
-                        <button className="contactbutton" type="submit">SUBMIT</button>
+                        <button className="contactbutton hoverbutton" type="submit">SUBMIT</button>
                     </form>
                 </div>
             </div>
