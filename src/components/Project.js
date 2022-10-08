@@ -21,6 +21,29 @@ export default function Project() {
                 <p className="projecth"><b>My Projects</b></p>
                 <hr className="phone-hr" />
 
+                
+                <div className="project-body" >
+                    <div className="phone-div">
+                        <p className="phone-h">CryptoDash</p>
+                    </div>
+                    <div>
+                        <img className="project-image" src={P3} alt="not found" />
+                    </div>
+                    <div className="project-details ">
+                        <p className="project-h">CryptoDash</p>
+
+                        <p className="project-tech"><i>Technology (Reactjs,CSS)</i></p>
+                        <p className="project-info"> CryptoDash is a web application that provides an interface to see all the current prices of Crypto coins.</p>
+
+                        <button className="P-button"><a href="https://github.com/muskan2566/Crypto-Dash" target="_blank" rel="noreferrer" >Git Hub</a></button>
+                        <button className="P-button"><a href="https://cryptodashb.netlify.app" target="_blank" rel="noreferrer">Live Demo</a></button>
+
+                    </div>
+                   
+                   
+                </div>
+
+
                 <div className="project-body" >
                     <div className="phone-div">
                         <p className="phone-h"> College Essential</p>
@@ -40,25 +63,8 @@ export default function Project() {
 
                     </div>
                 </div>
-                <div className="project-body" >
-                    <div className="phone-div">
-                        <p className="phone-h">CryptoDash</p>
-                    </div>
-                    <div className="project-details2 ">
-                        <p className="project-h">CryptoDash</p>
 
-                        <p className="project-tech"><i>Technology (Reactjs,CSS)</i></p>
-                        <p className="project-info"> CryptoDash is a web application that provides an interface to see all the current prices of Crypto coins.</p>
 
-                        <button className="P-button"><a href="https://github.com/muskan2566/Crypto-Dash" target="_blank" rel="noreferrer" >Git Hub</a></button>
-                        <button className="P-button"><a href="https://cryptodashb.netlify.app" target="_blank" rel="noreferrer">Live Demo</a></button>
-
-                    </div>
-                    <div>
-                        <img className="project-image" src={P3} alt="not found" />
-                    </div>
-                   
-                </div>
                 <div className="project-body" >
                     <div className="phone-div">
                         <p className="phone-h"> ImageGallery</p>
