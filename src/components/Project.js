@@ -46,31 +46,6 @@ export default function Project() {
                         )
                     })
                 }
-
-
-
-
-       
-
-
-                <div className="project-body" >
-                    <div className="phone-div">
-                        <p className="phone-h"></p>
-                    </div>
-                    <div>
-                        <img className="project-image" src={P2} alt="not found" />
-                    </div>
-                    <div className="project-details">
-                        <p className="project-h">ImageGallery</p>
-
-                        <p className="project-tech"><i>Technology</i></p>
-                        <p className="project-info"> </p>
-
-                        <button className="P-button"><a href= target="_blank" rel="noreferrer" >Git Hub</a></button>
-                        <button className="P-button"><a href= target="_blank" rel="noreferrer">Live Demo</a></button>
-
-                    </div>
-                </div>
             </div>
         </>
     )
