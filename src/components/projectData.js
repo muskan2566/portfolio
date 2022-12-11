@@ -2,9 +2,12 @@
 import P2 from './image/p2.png'
 import P1 from './image/p1.png'
 import P3 from  './image/p3.png'
+import P4 from  './image/p4.png'
+
 const projectData = [
+
     {
-        image:P1,
+        image:P3,
         name : "CryptoDash",
         tech: "(Reactjs,CSS)",
         detail: "CryptoDash is a web application that provides an interface to see all the current prices of Crypto coins.",
@@ -13,7 +16,7 @@ const projectData = [
 
     },
     {
-        image:P2,
+        image:P1,
         name : "CollegeEssential",
         tech: "(HTML,CSS,Javascript)",
         detail: "This is a Website for MCA,BCA and DDMCA Students.You can download Books, Syllabus(RGPV), Notes, Exam-papers from here.",
@@ -22,7 +25,7 @@ const projectData = [
 
     },
     {
-        image:P3,
+        image:P2,
         name : "ImageGallery",
         tech: "(MERN)",
         detail: "This is a web app where you can add your images in DataBase. Also perform CURD operations like you can add ,view , change images in database.",
